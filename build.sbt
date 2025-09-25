@@ -14,7 +14,7 @@ val pac4jHttp = "org.pac4j" % "pac4j-http" % pac4jVersion
 val pac4jJwt = "org.pac4j" % "pac4j-jwt" % pac4jVersion
 val nimbusJoseJwt = "com.nimbusds" % "nimbus-jose-jwt" % "10.5"
 val macwire = "com.softwaremill.macwire" %% "macros" % "2.5.8" % Provided
-val scalaTest = "org.scalatest" %% "scalatest" % "3.2.15" % Test
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.19" % Test
 
 lazy val `lagom-pac4j-scala-demo` = (project in file("."))
   .aggregate(`lagom-pac4j-scala-demo-api`, `lagom-pac4j-scala-demo-impl`)
