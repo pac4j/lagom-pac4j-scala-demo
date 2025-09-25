@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  verify:
+    name: Verify Project Structure
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Make script executable
+      run: chmod +x ci/run_and_check.sh
+      
+    - name: Run verification script
+      run: ./ci/run_and_check.sh
