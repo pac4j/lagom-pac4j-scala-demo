@@ -8,7 +8,7 @@ scalaVersion in ThisBuild := "2.12.18"
 lagomCassandraEnabled in ThisBuild := false
 lagomKafkaEnabled in ThisBuild := false
 
-val pac4jVersion = "6.3.0"
+val pac4jVersion = "6.3.1"
 val lagomPac4j = "org.pac4j" %% "lagom-pac4j" % "2.2.1"
 val pac4jHttp = "org.pac4j" % "pac4j-http" % pac4jVersion
 val pac4jJwt = "org.pac4j" % "pac4j-jwt" % pac4jVersion
