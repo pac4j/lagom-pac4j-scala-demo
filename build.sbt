@@ -12,7 +12,7 @@ val pac4jVersion = "6.3.1"
 val lagomPac4j = "org.pac4j" %% "lagom-pac4j" % "2.2.1"
 val pac4jHttp = "org.pac4j" % "pac4j-http" % pac4jVersion
 val pac4jJwt = "org.pac4j" % "pac4j-jwt" % pac4jVersion
-val nimbusJoseJwt = "com.nimbusds" % "nimbus-jose-jwt" % "10.7"
+val nimbusJoseJwt = "com.nimbusds" % "nimbus-jose-jwt" % "10.8"
 val macwire = "com.softwaremill.macwire" %% "macros" % "2.6.7" % Provided
 val scalaTest = "org.scalatest" %% "scalatest" % "3.2.19" % Test
 
