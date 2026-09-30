@@ -1,5 +1,8 @@
 # Lagom Pac4j Demo: How authenticate/authorize by JWT
 
+> This demo secures a Lagom (Scala) application with **[lagom-pac4j](https://github.com/pac4j/lagom-pac4j)**, the Lagom implementation of **[pac4j](https://github.com/pac4j/pac4j)**, the security engine for Java.
+> If it is useful to you, please ⭐ **[star pac4j on GitHub](https://github.com/pac4j/pac4j)**: it helps other developers discover it!
+
 This recipe demonstrates, how you can use [JWT](https://en.wikipedia.org/wiki/JSON_Web_Token) 
 for protection your service endpoints. It uses the [PAC4J](https://www.pac4j.org/) library and 
 its [lagom-pac4j module](https://github.com/pac4j/lagom-pac4j) for Lagom integration.
