@@ -1,5 +1,10 @@
 # Lagom Pac4j Demo: How authenticate/authorize by JWT
 
+> [!WARNING]
+> **This demo is deprecated and no longer maintained.**
+> The Lagom framework reached its end-of-life on July 1st, 2024 and no longer receives any updates, including security patches.
+> As a consequence, [lagom-pac4j](https://github.com/pac4j/lagom-pac4j) is deprecated as well. Lightbend recommends migrating to [Akka](https://akka.io).
+
 > This demo secures a Lagom (Scala) application with **[lagom-pac4j](https://github.com/pac4j/lagom-pac4j)**, the Lagom implementation of **[pac4j](https://github.com/pac4j/pac4j)**, the security engine for Java.
 > If it is useful to you, please ⭐ **[star pac4j on GitHub](https://github.com/pac4j/pac4j)**: it helps other developers discover it!
 
